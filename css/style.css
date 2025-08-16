@@ -1873,6 +1873,7 @@ em.search-keyword {
 
 /* Darkmode CSS*/
 html[data-dark=true] {
+  min-height: 100vh; /* 确保黑暗模式下页面高度至少充满整个视口 */
   background-color: #121212 !important;
   filter: invert(100%) hue-rotate(180deg) brightness(105%) contrast(85%);
   -webkit-filter: invert(100%) hue-rotate(180deg) brightness(105%) contrast(85%);
