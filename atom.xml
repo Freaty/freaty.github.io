@@ -3,11 +3,11 @@
   <title>观复子</title>
   
   <subtitle>致虚极，守静笃；万物并作，吾以观复。</subtitle>
-  <link href="http://novnaskita.github.io/atom.xml" rel="self"/>
+  <link href="http://freaty.github.io/atom.xml" rel="self"/>
   
-  <link href="http://novnaskita.github.io/"/>
+  <link href="http://freaty.github.io/"/>
   <updated>2025-08-18T06:30:30.193Z</updated>
-  <id>http://novnaskita.github.io/</id>
+  <id>http://freaty.github.io/</id>
   
   <author>
     <name>观复子</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>欲焰</title>
-    <link href="http://novnaskita.github.io/2025/08/15/Desire/"/>
-    <id>http://novnaskita.github.io/2025/08/15/Desire/</id>
+    <link href="http://freaty.github.io/2025/08/15/Desire/"/>
+    <id>http://freaty.github.io/2025/08/15/Desire/</id>
     <published>2025-08-14T16:00:00.000Z</published>
     <updated>2025-08-18T06:30:30.193Z</updated>
     
@@ -34,10 +34,10 @@
     
     
     
-    <category term="随笔" scheme="http://novnaskita.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+    <category term="随笔" scheme="http://freaty.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
-    <category term="诗集" scheme="http://novnaskita.github.io/tags/%E8%AF%97%E9%9B%86/"/>
+    <category term="诗集" scheme="http://freaty.github.io/tags/%E8%AF%97%E9%9B%86/"/>
     
   </entry>
   
