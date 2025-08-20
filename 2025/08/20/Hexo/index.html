@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>Hexo使用指南 | 观复子</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/pure-min.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="https://unpkg.com/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script type="text/javascript" src="https://unpkg.com/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="https://unpkg.com/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="https://unpkg.com/toastr/build/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>Hexo使用指南 | 观复子</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/pure-min.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="https://unpkg.com/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
 var toggle = document.querySelector('.darkmode-toggle');
 var html = document.querySelector('html');
 
@@ -7,59 +7,51 @@ html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
 toggle.addEventListener('click', () => {
 localStorage.dark = !(html.dataset.dark == 'true');
 html.dataset.dark = localStorage.dark;
-});</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Hexo使用指南</h1><a id="logo" href="/.">观复子</a><p class="description">致虚极，守静笃；万物并作，吾以观复。</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/tags/"><i class="fa fa-tags"> 标签</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Hexo使用指南</h1><div class="post-meta">2025年08月20日<span> | </span><span class="category"><a href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="post-content"><h2 id="一、Hexo-初步安装与部署"><a href="#一、Hexo-初步安装与部署" class="headerlink" title="一、Hexo 初步安装与部署"></a>一、Hexo 初步安装与部署</h2><h3 id="1、环境准备"><a href="#1、环境准备" class="headerlink" title="1、环境准备"></a>1、环境准备</h3><h4 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h4><p>Hexo 基于 Node.js 运行，需先安装 Node.js（建议使用LTS版本）：</p>
+});</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">Hexo使用指南</h1><a id="logo" href="/.">观复子</a><p class="description">致虚极，守静笃；万物并作，吾以观复。</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/tags/"><i class="fa fa-tags"> 标签</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">Hexo使用指南</h1><div class="post-meta">2025年08月20日<span> | </span><span class="category"><a href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></span></div><div class="clear"><div class="toc-article" id="toc"><div class="toc-title">文章目录</div><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-Hexo-%E5%88%9D%E6%AD%A5%E5%AE%89%E8%A3%85%E4%B8%8E%E9%83%A8%E7%BD%B2"><span class="toc-text">1.Hexo 初步安装与部署</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1%E7%8E%AF%E5%A2%83%E5%87%86%E5%A4%87"><span class="toc-text">1.1环境准备</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-1%E5%AE%89%E8%A3%85-Node-js"><span class="toc-text">1.1.1安装 Node.js</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-1-2%E5%AE%89%E8%A3%85-Git"><span class="toc-text">1.1.2安装 Git</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2%E5%AE%89%E8%A3%85-Hexo"><span class="toc-text">1.2安装 Hexo</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3%E5%88%9D%E5%A7%8B%E5%8C%96-Hexo-%E5%8D%9A%E5%AE%A2"><span class="toc-text">1.3初始化 Hexo 博客</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-1%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2%E7%9B%AE%E5%BD%95"><span class="toc-text">1.3.1创建博客目录</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-2%E5%88%9D%E5%A7%8B%E5%8C%96%E5%8D%9A%E5%AE%A2"><span class="toc-text">1.3.2初始化博客</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-3-3%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84%E8%AF%B4%E6%98%8E"><span class="toc-text">1.3.3目录结构说明</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-4%E6%9C%AC%E5%9C%B0%E9%A2%84%E8%A7%88%E5%8D%9A%E5%AE%A2"><span class="toc-text">1.4本地预览博客</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-5%E5%8F%91%E5%B8%83%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0"><span class="toc-text">1.5发布第一篇文章</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-6%E5%AE%89%E8%A3%85%E4%B8%BB%E9%A2%98%EF%BC%88%E4%BB%A5-Maupassant-%E4%B8%BA%E4%BE%8B%EF%BC%89"><span class="toc-text">1.6安装主题（以 Maupassant 为例）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-7%E9%83%A8%E7%BD%B2%E5%88%B0-GitHub-Pages"><span class="toc-text">1.7部署到 GitHub Pages</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-Markdown-%E7%9F%A5%E8%AF%86"><span class="toc-text">2.Markdown 知识</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1%E9%A1%B5%E9%9D%A2%E5%B1%9E%E6%80%A7%E9%85%8D%E7%BD%AE"><span class="toc-text">2.1页面属性配置</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1-1%E5%9F%BA%E7%A1%80%E5%B8%83%E5%B1%80%E5%B1%9E%E6%80%A7"><span class="toc-text">2.1.1基础布局属性</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1-2%E5%88%86%E7%B1%BB%E6%A0%87%E7%AD%BE%E5%B1%9E%E6%80%A7"><span class="toc-text">2.1.2分类标签属性</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1-3%E5%86%85%E5%AE%B9%E5%B1%95%E7%A4%BA%E5%B1%9E%E6%80%A7"><span class="toc-text">2.1.3内容展示属性</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-1-4%E5%8A%9F%E8%83%BD%E6%8E%A7%E5%88%B6%E5%B1%9E%E6%80%A7"><span class="toc-text">2.1.4功能控制属性</span></a></li></ol></li></ol></li></ol></div></div><div class="post-content"><h2 id="1-Hexo-初步安装与部署"><a href="#1-Hexo-初步安装与部署" class="headerlink" title="1.Hexo 初步安装与部署"></a>1.Hexo 初步安装与部署</h2><h3 id="1-1环境准备"><a href="#1-1环境准备" class="headerlink" title="1.1环境准备"></a>1.1环境准备</h3><h4 id="1-1-1安装-Node-js"><a href="#1-1-1安装-Node-js" class="headerlink" title="1.1.1安装 Node.js"></a>1.1.1安装 Node.js</h4><p>Hexo 基于 Node.js 运行，需先安装 Node.js（建议使用LTS版本）：</p>
 <ul>
 <li>  安装命令：<a target="_blank" rel="noopener" href="https://nodejs.org/">Node.js 官网</a></li>
 </ul>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Windows安装LTS版本命令，也可官网下载安装</span><br><span class="line">winget install OpenJS.NodeJS.LTS</span><br><span class="line"></span><br><span class="line"># Linux安装最新22LTS版本命令，不同发行版包管理工具不同，debian系为apt</span><br><span class="line">curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -</span><br><span class="line">sudo apt install nodejs</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Windows安装LTS版本命令，也可官网下载安装</span></span><br><span class="line">winget install OpenJS.NodeJS.LTS</span><br><span class="line"></span><br><span class="line"><span class="comment"># Linux安装最新22LTS版本命令，不同发行版包管理工具不同，debian系为apt</span></span><br><span class="line">curl -fsSL https://deb.nodesource.com/setup_22.x | <span class="built_in">sudo</span> -E bash -</span><br><span class="line"><span class="built_in">sudo</span> apt install nodejs</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li>  验证配置：</li>
 </ul>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"># 验证安装</span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br><span class="line"></span><br><span class="line"># 配置设定，以Linux为例，Windows一般无需配置</span><br><span class="line"># 将默认的系统级路径改为用户主目录下的.npm-global</span><br><span class="line">npm config set prefix ~/.npm-global</span><br><span class="line"># 将新的npm全局二进制文件目录添加到环境变量PATH中</span><br><span class="line">echo &#x27;export PATH=~/.npm-global/bin:$PATH&#x27; &gt;&gt; ~/.bashrc</span><br><span class="line">source ~/.bashrc</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 验证安装</span></span><br><span class="line">node -v</span><br><span class="line">npm -v</span><br><span class="line"></span><br><span class="line"><span class="comment"># 配置设定，以Linux为例，Windows一般无需配置</span></span><br><span class="line"><span class="comment"># 将默认的系统级路径改为用户主目录下的.npm-global</span></span><br><span class="line">npm config <span class="built_in">set</span> prefix ~/.npm-global</span><br><span class="line"><span class="comment"># 将新的npm全局二进制文件目录添加到环境变量PATH中</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">&#x27;export PATH=~/.npm-global/bin:$PATH&#x27;</span> &gt;&gt; ~/.bashrc</span><br><span class="line"><span class="built_in">source</span> ~/.bashrc</span><br></pre></td></tr></table></figure>
 
-<h4 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h4><p>用于版本控制和部署到 GitHub 等平台：</p>
+<h4 id="1-1-2安装-Git"><a href="#1-1-2安装-Git" class="headerlink" title="1.1.2安装 Git"></a>1.1.2安装 Git</h4><p>用于版本控制和部署到 GitHub 等平台：</p>
 <ul>
 <li>  安装命令：<a target="_blank" rel="noopener" href="https://git-scm.com/">Git 官网</a></li>
 </ul>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># Windows安装命令，也可官网下载安装</span><br><span class="line">winget install git</span><br><span class="line"></span><br><span class="line"># Linux安装最新LTS版本命令，不同发行版包管理工具不同，debian系为apt</span><br><span class="line">curl -fsSL https://deb.nodesource.com/setup_22.x | sudo -E bash -</span><br><span class="line">sudo apt install nodejs</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Windows安装命令，也可官网下载安装</span></span><br><span class="line">winget install git</span><br><span class="line"></span><br><span class="line"><span class="comment"># Linux安装命令，不同发行版包管理工具不同，debian系为apt</span></span><br><span class="line"><span class="built_in">sudo</span> apt install git</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li>  验证配置：</li>
 </ul>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># 验证安装</span><br><span class="line">git --version  # 输出版本号</span><br><span class="line"></span><br><span class="line"># 配置Git</span><br><span class="line">git config --global user.name &quot;Your Name&quot;</span><br><span class="line">git config --global user.email &quot;your_email@example.com&quot;</span><br><span class="line"></span><br><span class="line"># SSH密钥生成</span><br><span class="line">ssh-keygen -t rsa -b 4096 -C &quot;your_email@example.com&quot;</span><br><span class="line"># 复制公钥添加到Github等平台账户相应设置内</span><br><span class="line">cat ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 验证安装</span></span><br><span class="line">git --version  <span class="comment"># 输出版本号</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 配置Git</span></span><br><span class="line">git config --global user.name <span class="string">&quot;Your Name&quot;</span></span><br><span class="line">git config --global user.email <span class="string">&quot;your_email@example.com&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># SSH密钥生成</span></span><br><span class="line">ssh-keygen -t rsa -b 4096 -C <span class="string">&quot;your_email@example.com&quot;</span></span><br><span class="line"><span class="comment"># 复制公钥添加到Github等平台账户相应设置内</span></span><br><span class="line"><span class="built_in">cat</span> ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
 
+<h3 id="1-2安装-Hexo"><a href="#1-2安装-Hexo" class="headerlink" title="1.2安装 Hexo"></a>1.2安装 Hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 全局安装Hexo命令</span></span><br><span class="line">npm install -g hexo-cli</span><br><span class="line"></span><br><span class="line"><span class="comment"># 验证Hexo命令</span></span><br><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
 
-<h3 id="2、安装-Hexo"><a href="#2、安装-Hexo" class="headerlink" title="2、安装 Hexo"></a>2、安装 Hexo</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 全局安装Hexo命令</span><br><span class="line">npm install -g hexo-cli</span><br><span class="line"></span><br><span class="line"># 验证Hexo命令</span><br><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+<h3 id="1-3初始化-Hexo-博客"><a href="#1-3初始化-Hexo-博客" class="headerlink" title="1.3初始化 Hexo 博客"></a>1.3初始化 Hexo 博客</h3><h4 id="1-3-1创建博客目录"><a href="#1-3-1创建博客目录" class="headerlink" title="1.3.1创建博客目录"></a>1.3.1创建博客目录</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 新建文件夹（名称自定义，如 my-hexo-blog）</span></span><br><span class="line"><span class="built_in">mkdir</span> my-hexo-blog</span><br><span class="line"><span class="comment"># 进入博客目录</span></span><br><span class="line"><span class="built_in">cd</span> my-hexo-blog</span><br></pre></td></tr></table></figure>
 
+<h4 id="1-3-2初始化博客"><a href="#1-3-2初始化博客" class="headerlink" title="1.3.2初始化博客"></a>1.3.2初始化博客</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 初始化项目</span></span><br><span class="line">hexo init</span><br><span class="line"><span class="comment"># 安装依赖包</span></span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
 
-<h3 id="3、初始化-Hexo-博客"><a href="#3、初始化-Hexo-博客" class="headerlink" title="3、初始化 Hexo 博客"></a>3、初始化 Hexo 博客</h3><h4 id="创建博客目录"><a href="#创建博客目录" class="headerlink" title="创建博客目录"></a>创建博客目录</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 新建文件夹（名称自定义，如 my-hexo-blog）</span><br><span class="line">mkdir my-hexo-blog</span><br><span class="line"># 进入博客目录</span><br><span class="line">cd my-hexo-blog</span><br></pre></td></tr></table></figure>
-
-<h4 id="初始化博客"><a href="#初始化博客" class="headerlink" title="初始化博客"></a>初始化博客</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 初始化项目</span><br><span class="line">hexo init</span><br><span class="line"># 安装依赖包</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-
-<h4 id="目录结构说明"><a href="#目录结构说明" class="headerlink" title="目录结构说明"></a>目录结构说明</h4><p>初始化后生成的核心目录：</p>
+<h4 id="1-3-3目录结构说明"><a href="#1-3-3目录结构说明" class="headerlink" title="1.3.3目录结构说明"></a>1.3.3目录结构说明</h4><p>初始化后生成的核心目录：</p>
 <ul>
 <li>  <code>source/</code>：存放博客文章与资源（<code>.md</code> 文件和依赖的资源）</li>
 <li>  <code>themes/</code>：主题文件夹</li>
 <li>  <code>_config.yml</code>：Hexo 全局配置文件</li>
 <li>  <code>package.json</code>：项目依赖配置</li>
 </ul>
-<h3 id="4、本地预览博客"><a href="#4、本地预览博客" class="headerlink" title="4、本地预览博客"></a>4、本地预览博客</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># 生成静态文件</span><br><span class="line">hexo generate  # 简写：hexo g</span><br><span class="line"></span><br><span class="line"># 启动本地服务器</span><br><span class="line">hexo server    # 简写：hexo s</span><br><span class="line"></span><br><span class="line"># 打开浏览器，访问 http://localhost:4000 即可查看本地博客</span><br></pre></td></tr></table></figure>
+<h3 id="1-4本地预览博客"><a href="#1-4本地预览博客" class="headerlink" title="1.4本地预览博客"></a>1.4本地预览博客</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 生成静态文件</span></span><br><span class="line">hexo generate  <span class="comment"># 简写：hexo g</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 启动本地服务器</span></span><br><span class="line">hexo server    <span class="comment"># 简写：hexo s</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 打开浏览器，访问 http://localhost:4000 即可查看本地博客</span></span><br></pre></td></tr></table></figure>
 
+<h3 id="1-5发布第一篇文章"><a href="#1-5发布第一篇文章" class="headerlink" title="1.5发布第一篇文章"></a>1.5发布第一篇文章</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 创建新文章（简写：hexo n &quot;标题&quot;）</span></span><br><span class="line">hexo new <span class="string">&quot;Hexo&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 编辑文章（这里示例用vscode编辑.md文件）</span></span><br><span class="line">code <span class="built_in">source</span>/_posts/Hexo.md</span><br><span class="line"></span><br><span class="line"><span class="comment"># 重新本地预览</span></span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
 
-<h3 id="5、发布第一篇文章"><a href="#5、发布第一篇文章" class="headerlink" title="5、发布第一篇文章"></a>5、发布第一篇文章</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 创建新文章（简写：hexo n &quot;标题&quot;）</span><br><span class="line">hexo new &quot;Hexo&quot;</span><br><span class="line"></span><br><span class="line"># 编辑文章（这里示例用vscode编辑.md文件）</span><br><span class="line">code source/_posts/Hexo.md</span><br><span class="line"></span><br><span class="line"># 重新本地预览</span><br><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>
+<h3 id="1-6安装主题（以-Maupassant-为例）"><a href="#1-6安装主题（以-Maupassant-为例）" class="headerlink" title="1.6安装主题（以 Maupassant 为例）"></a>1.6安装主题（以 Maupassant 为例）</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 下载主题到主题目录</span></span><br><span class="line">git <span class="built_in">clone</span> https://github.com/tufu9441/maupassant-hexo.git themes/maupassant</span><br><span class="line"></span><br><span class="line"><span class="comment"># 阅读Maupassant主题Github说明页面并依照说明配置依赖和个性化设置</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 修改Hexo全局配置文件 _config.yml 的theme: 为maupassant</span></span><br></pre></td></tr></table></figure>
 
+<h3 id="1-7部署到-GitHub-Pages"><a href="#1-7部署到-GitHub-Pages" class="headerlink" title="1.7部署到 GitHub Pages"></a>1.7部署到 GitHub Pages</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 安装部署插件</span></span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在全局 _config.yml 中添加：（非终端命令，为配置文件添加插件设置）</span></span><br><span class="line">deploy:</span><br><span class="line">  <span class="comment"># 特别强调你的GitHub仓库名称必需为：你的用户名.github.io</span></span><br><span class="line">  <span class="built_in">type</span>: git</span><br><span class="line">  repo: git@github.com:你的用户名/你的用户名.github.io.git</span><br><span class="line">  branch: main  <span class="comment"># 部署分支（默认 main 或 master）</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 部署到 GitHub Pages</span></span><br><span class="line">hexo clean &amp;&amp; hexo g -d</span><br><span class="line"></span><br><span class="line"><span class="comment"># 部署成功后，访问 https://你的用户名.github.io即可查看线上博客</span></span><br></pre></td></tr></table></figure>
 
-<h3 id="6、安装主题（以-Maupassant-为例）"><a href="#6、安装主题（以-Maupassant-为例）" class="headerlink" title="6、安装主题（以 Maupassant 为例）"></a>6、安装主题（以 Maupassant 为例）</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 下载主题到主题目录</span><br><span class="line">git clone https://github.com/tufu9441/maupassant-hexo.git themes/maupassant</span><br><span class="line"></span><br><span class="line"># 阅读Maupassant主题Github说明页面并依照说明配置依赖和个性化设置</span><br><span class="line"></span><br><span class="line"># 修改Hexo全局配置文件 _config.yml 的theme: 为maupassant</span><br></pre></td></tr></table></figure>
-
-
-<h3 id="7、部署到-GitHub-Pages"><a href="#7、部署到-GitHub-Pages" class="headerlink" title="7、部署到 GitHub Pages"></a>7、部署到 GitHub Pages</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"># 安装部署插件</span><br><span class="line">npm install hexo-deployer-git --save</span><br><span class="line"></span><br><span class="line"># 在全局 _config.yml 中添加：（非终端命令，为配置文件添加插件设置）</span><br><span class="line">deploy:</span><br><span class="line">  # GitHub仓库名称需为：你的用户名.github.io</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:你的用户名/你的用户名.github.io.git</span><br><span class="line">  branch: main  # 部署分支（默认 main 或 master）</span><br><span class="line"></span><br><span class="line"># 部署到 GitHub Pages</span><br><span class="line">hexo clean &amp;&amp; hexo g -d</span><br><span class="line"></span><br><span class="line"># 部署成功后，访问 https://你的用户名.github.io即可查看线上博客</span><br></pre></td></tr></table></figure>
-
-
-<h2 id="二、Markdown-知识"><a href="#二、Markdown-知识" class="headerlink" title="二、Markdown 知识"></a>二、Markdown 知识</h2><h3 id="1、MD属性配置"><a href="#1、MD属性配置" class="headerlink" title="1、MD属性配置"></a>1、MD属性配置</h3><h4 id="基础布局与元数据属性"><a href="#基础布局与元数据属性" class="headerlink" title="基础布局与元数据属性"></a>基础布局与元数据属性</h4><ol>
-<li><code>layout</code></li>
-</ol>
-<ul>
+<h2 id="2-Markdown-知识"><a href="#2-Markdown-知识" class="headerlink" title="2.Markdown 知识"></a>2.Markdown 知识</h2><h3 id="2-1页面属性配置"><a href="#2-1页面属性配置" class="headerlink" title="2.1页面属性配置"></a>2.1页面属性配置</h3><h4 id="2-1-1基础布局属性"><a href="#2-1-1基础布局属性" class="headerlink" title="2.1.1基础布局属性"></a>2.1.1基础布局属性</h4><ul>
+<li>1.<code>layout</code><ul>
 <li>作用：指定页面 &#x2F; 文章的渲染模板，决定页面结构和功能。</li>
 <li>常用值（Maupassant 主题支持）：<ul>
 <li><code>post</code>：默认，博客文章（支持分类、标签等）。</li>
@@ -71,108 +63,84 @@ html.dataset.dark = localStorage.dark;
 </ul>
 </li>
 </ul>
-<ol start="2">
-<li><code>title</code></li>
-</ol>
-<ul>
+</li>
+<li>2.<code>title</code><ul>
 <li>作用：定义文章 &#x2F; 页面标题，显示在页面头部、浏览器标签及搜索结果中。</li>
 </ul>
-<ol start="3">
-<li><code>date</code></li>
-</ol>
-<ul>
+</li>
+<li>3.<code>date</code><ul>
 <li>作用：设置发布时间，用于文章排序和展示（如 “发布于 2024-01-01”）。</li>
 <li>格式：<code>YYYY-MM-DD HH:MM:SS</code>（时间可选）。</li>
 </ul>
-<ol start="4">
-<li><code>updated</code></li>
-</ol>
-<ul>
+</li>
+<li>4.<code>updated</code><ul>
 <li>作用：设置最后更新时间，用于展示 “最后编辑于 XXX”。</li>
-<li>若未设置，默认使用<code>date</code>的值；手动设置后覆盖默认。</li>
 </ul>
-<ol start="5">
-<li><code>permalink</code></li>
-</ol>
-<ul>
+</li>
+<li>5.<code>permalink</code><ul>
 <li>作用：自定义永久链接（URL），覆盖 Hexo 默认规则（如<code>year/month/day/title/</code>）。</li>
 </ul>
-<ol start="6">
-<li><code>published</code></li>
-</ol>
-<ul>
+</li>
+<li>6.<code>published</code><ul>
 <li>作用：控制是否发布。<code>true</code>（默认）发布，<code>false</code>为本地草稿（不生成静态文件）。</li>
 </ul>
-<h4 id="分类与标签属性"><a href="#分类与标签属性" class="headerlink" title="分类与标签属性"></a>分类与标签属性</h4><ol>
-<li><code>categories</code></li>
-</ol>
-<ul>
+</li>
+</ul>
+<h4 id="2-1-2分类标签属性"><a href="#2-1-2分类标签属性" class="headerlink" title="2.1.2分类标签属性"></a>2.1.2分类标签属性</h4><ul>
+<li>1.<code>categories</code><ul>
 <li>作用：指定文章分类（支持单分类或多级分类）。</li>
 </ul>
-<ol start="2">
-<li><code>tags</code></li>
-</ol>
-<ul>
+</li>
+<li>2.<code>tags</code><ul>
 <li>作用：指定文章标签（关联相似内容），支持多个标签。</li>
 </ul>
-<h4 id="内容展示属性"><a href="#内容展示属性" class="headerlink" title="内容展示属性"></a>内容展示属性</h4><ol>
-<li><code>description</code></li>
-</ol>
-<ul>
+</li>
+</ul>
+<h4 id="2-1-3内容展示属性"><a href="#2-1-3内容展示属性" class="headerlink" title="2.1.3内容展示属性"></a>2.1.3内容展示属性</h4><ul>
+<li>1.<code>description</code><ul>
 <li>作用：定义文章摘要，用于首页 &#x2F; 列表页展示（替代<code>&lt;!--more--&gt;</code>）。</li>
 </ul>
-<ol start="2">
-<li><code>toc</code></li>
-</ol>
-<ul>
+</li>
+<li>2.<code>toc</code><ul>
 <li>作用：控制是否显示目录（Table of Contents）。</li>
 </ul>
-<ol start="3">
-<li><code>excerpt</code></li>
-</ol>
-<ul>
+</li>
+<li>3.<code>excerpt</code><ul>
 <li>作用：手动定义摘要，功能同<code>description</code>。</li>
 </ul>
-<h4 id="功能控制属性"><a href="#功能控制属性" class="headerlink" title="功能控制属性"></a>功能控制属性</h4><ol>
-<li><code>comments</code></li>
-</ol>
-<ul>
+</li>
+</ul>
+<h4 id="2-1-4功能控制属性"><a href="#2-1-4功能控制属性" class="headerlink" title="2.1.4功能控制属性"></a>2.1.4功能控制属性</h4><ul>
+<li>1.<code>comments</code><ul>
 <li>作用：控制是否启用评论功能（覆盖全局配置，true&#x2F;false）。</li>
 </ul>
-<ol start="2">
-<li><code>mathjax</code> &#x2F; <code>mathjax2</code></li>
-</ol>
-<ul>
+</li>
+<li>2.<code>mathjax</code> &#x2F; <code>mathjax2</code><ul>
 <li>作用：启用数学公式渲染（需先在 Hexo 全局配置<code>_config.yml</code>中开启对应选项）。</li>
 </ul>
-<ol start="3">
-<li><code>donate</code></li>
-</ol>
-<ul>
+</li>
+<li>3.<code>donate</code><ul>
 <li>作用：控制当前页面是否显示捐赠按钮（覆盖主题全局配置）。</li>
 </ul>
-<ol start="4">
-<li><code>sticky</code></li>
-</ol>
-<ul>
+</li>
+<li>4.<code>sticky</code><ul>
 <li>作用：设置文章置顶权重（数值越大，优先级越高）。</li>
 </ul>
-<ol start="5">
-<li><code>password</code></li>
-</ol>
-<ul>
+</li>
+<li>5.<code>password</code><ul>
 <li>作用：对文章设置密码保护，访问时需输入密码查看内容。</li>
 </ul>
-<ol start="6">
-<li><code>abbrlink</code></li>
-</ol>
-<ul>
+</li>
+<li>6.<code>abbrlink</code><ul>
 <li>作用：生成短链接（需配合<code>hexo-abbrlink</code>插件），替代默认长链接。</li>
 </ul>
+</li>
+</ul>
+<p><img src="/images/Hexo.jpeg" alt="Hexo"></p>
 </div><div class="tags"><ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/" rel="tag">Hexo</a></li></ul></div><div class="post-nav"><a class="next" href="/2025/08/15/Desire/">欲焰</a></div></div></div></div><div class="pure-u-1-4 hidden_mid_and_down"><div id="sidebar"><div class="widget"><div class="search-form"><input id="local-search-input" placeholder="Search" type="text" name="q" results="0"/><div id="local-search-result"></div></div></div><div class="widget"><div class="author-info"><a class="info-avatar" href="/about/" title="关于"><img class="nofancybox" src="/img/avatar.ico"/></a><p>To be a better man.</p><a class="info-icon" href="mailto:freaty@foxmail.com" title="Email" target="_blank" style="margin-inline:5px"> <i class="fa fa-envelope-square" style="margin-inline:5px"></i></a><a class="info-icon" href="https://github.com/Freaty" title="Github" target="_blank" style="margin-inline:5px"> <i class="fa fa-github-square" style="margin-inline:5px"></i></a><a class="info-icon" href="/atom.xml" title="RSS" target="_blank" style="margin-inline:5px"> <i class="fa fa-rss-square" style="margin-inline:5px"></i></a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-folder-o"> 分类</i></div><ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%80%E6%9C%AF/">技术</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E9%9A%8F%E7%AC%94/">随笔</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-file-o"> 最近文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2025/08/20/Hexo/">Hexo使用指南</a></li><li class="post-list-item"><a class="post-list-link" href="/2025/08/15/Desire/">欲焰</a></li></ul></div></div></div><div class="pure-u-1 pure-u-md-3-4"><div id="footer">Copyright © 2025 <a href="/." rel="nofollow">观复子.</a> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a><a rel="nofollow" target="_blank" href="https://github.com/tufu9441/maupassant-hexo"> Theme</a> by<a rel="nofollow" target="_blank" href="https://github.com/pagecho"> Cho.</a></div></div></div><a class="show" id="rocket" href="#top"></a><script type="text/javascript" src="/js/totop.js?v=1.0.0" async></script><script type="text/javascript" src="https://unpkg.com/@fancyapps/fancybox/dist/jquery.fancybox.min.js" async></script><script type="text/javascript" src="/js/fancybox.js?v=1.0.0" async></script><link rel="stylesheet" type="text/css" href="https://unpkg.com/@fancyapps/fancybox/dist/jquery.fancybox.min.css"><link rel="stylesheet" type="text/css" href="/css/search.css?v=1.0.0"><script type="text/javascript" src="/js/search.js?v=1.0.0"></script><script>var search_path = 'search.xml';
 if (search_path.length == 0) {
   search_path = 'search.xml';
 }
 var path = '/' + search_path;
 searchFunc(path, 'local-search-input', 'local-search-result');
-</script><script type="text/javascript" src="/js/copycode.js?v=1.0.0" successtext="复制成功！"></script><link rel="stylesheet" type="text/css" href="/css/copycode.css?v=1.0.0"><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
+</script><script type="text/javascript" src="/js/codeblock-resizer.js?v=1.0.0"></script><script type="text/javascript" src="/js/smartresize.js?v=1.0.0"></script></div></body></html>
